@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &183938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440906}
+  - 114: {fileID: 11438246}
+  m_Layer: 0
+  m_Name: GuiTheme Default Fantasy InGameData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440906
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11438246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0b9f5208f545043a6aec25bc3abc5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 1024
+  height: 768
+  txQueued: {fileID: 2800000, guid: 1176e7d7331dfa04b943206600fe1e66, type: 3}
+  txInvalid: {fileID: 2800000, guid: f4366b2100a25dc46ad1da91725d98ce, type: 3}
+  txCooldown:
+  - {fileID: 2800000, guid: 0ea29f9b5f44b0348b818ae3d800bd44, type: 3}
+  - {fileID: 2800000, guid: 592b92abb9f86c94989bfea12f59eb5c, type: 3}
+  - {fileID: 2800000, guid: 854ae2f2e5342cb4f8ffad4e94c857a0, type: 3}
+  - {fileID: 2800000, guid: e1212fa4ad273c742b52f7ade3b8149d, type: 3}
+  - {fileID: 2800000, guid: d1ff9975853116240bc909b7f66c3550, type: 3}
+  - {fileID: 2800000, guid: ff2fbaeb528877b4496f50063ce80588, type: 3}
+  - {fileID: 2800000, guid: b24159e6151b0004cb724143b43ad17a, type: 3}
+  - {fileID: 2800000, guid: 2228bd5e640b2eb4ea548ac698e8795d, type: 3}
+  txNoIcon: {fileID: 2800000, guid: f3a2204e5b360c840a20d0e0eb69b509, type: 3}
+  skin: {fileID: 11400000, guid: 79172ccedcafc7d43914febd3ed4086e, type: 2}
+  sfxButton: {fileID: 0}
+  trMenuBar:
+    stretch: 0
+    xAlign: 2
+    yAlign: 0
+    offset: {x: 0, y: 2}
+    size: {x: 0, y: 0}
+  trActionBar:
+    stretch: 0
+    xAlign: 2
+    yAlign: 1
+    offset: {x: 0, y: 5}
+    size: {x: 0, y: 0}
+  trRightPanel:
+    stretch: 0
+    xAlign: 1
+    yAlign: 2
+    offset: {x: 0, y: 0}
+    size: {x: 300, y: 600}
+  trLeftPanel:
+    stretch: 0
+    xAlign: 0
+    yAlign: 2
+    offset: {x: 0, y: 0}
+    size: {x: 300, y: 600}
+  trLeftWidePanel:
+    stretch: 0
+    xAlign: 0
+    yAlign: 2
+    offset: {x: 0, y: 0}
+    size: {x: 450, y: 600}
+  menuIconWidth: 40
+  menuOptions:
+  - active: 1
+    showWhat: 2
+    name: Character
+    icon: {fileID: 2800000, guid: 2a3b3d30b3c84d943866f59d85155080, type: 3}
+  - active: 1
+    showWhat: 3
+    name: Bag
+    icon: {fileID: 2800000, guid: 3e0b623c416caea4ba3ac7d836a5525d, type: 3}
+  - active: 1
+    showWhat: 4
+    name: Skills
+    icon: {fileID: 2800000, guid: 51dc7d92064528d4d91ccd5c8a8467b2, type: 3}
+  - active: 1
+    showWhat: 6
+    name: Journal
+    icon: {fileID: 2800000, guid: 6b283268d1c83dc4bac8a61fb00e4e9a, type: 3}
+  - active: 1
+    showWhat: 1
+    name: Options
+    icon: {fileID: 2800000, guid: 64f1dc8d80be2884599728689148ccae, type: 3}
+  actionSlotsCount: 6
+  actionIconWidth: 50
+  showWhenCantUseSkill: 1
+  showSkillCooldown: 1
+  showSkillQueued: 1
+  txEmptySlot: {fileID: 2800000, guid: dba6f68849fcc1a42aba54592c738861, type: 3}
+  bagPanelName: Bag
+  bagIconWidth: 50
+  charaPanelName: Character
+  charaPanelShowLevel: 1
+  equipIconWidth: 50
+  skillPanelName: Skills
+  skillIconWidth: 50
+  statusPortraitWidth: 50
+  statusBarWidth: 200
+  statusBarHeight: 15
+  statusBarBack: {fileID: 2800000, guid: 1e334a6d2730471448cd29a2bc2e58bf, type: 3}
+  showPlayerStatus: 1
+  playerStatusShowValue: 1
+  showPlayerPortrait: 1
+  showPlayerLevel: 0
+  playerStatusBars: []
+  targetStatus:
+  - nm: Hostile
+    show: 1
+    name: 1
+    img: 1
+    level: 0
+    bars: 1
+  - nm: Neutral
+    show: 1
+    name: 1
+    img: 1
+    level: 0
+    bars: 1
+  - nm: Friendly
+    show: 1
+    name: 1
+    img: 1
+    level: 0
+    bars: 0
+  - nm: Item
+    show: 1
+    name: 1
+    img: 1
+    level: 0
+    bars: 0
+  - nm: Object
+    show: 1
+    name: 1
+    img: 1
+    level: 0
+    bars: 0
+  targetStatusShowValue: 1
+  targetStatusBars: []
+  logPanelName: Journal
+  txQuestComplete:
+  - {fileID: 2800000, guid: ef6f8274faf59c3448c884c14896d30d, type: 3}
+  - {fileID: 2800000, guid: 2c1bc91237e177549bcf81a20301dbec, type: 3}
+  plrMoveCharSheet: 0
+  plrMoveSkills: 0
+  plrMoveBag: 0
+  plrMoveDialogue: 0
+  plrMoveJournal: 0
+  plrMoveShop: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 183938}
+  m_IsPrefabParent: 1

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &158220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 448750}
+  - 114: {fileID: 11455034}
+  m_Layer: 0
+  m_Name: GuiTheme Default Fantasy MenuData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11455034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1797862cde82334ca0ed1dab5d7604f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 1024
+  height: 768
+  skin: {fileID: 11400000, guid: 79172ccedcafc7d43914febd3ed4086e, type: 2}
+  texMenuBack: {fileID: 2800000, guid: 4f06bb1c43e345948a30bbadd1653aa0, type: 3}
+  texLogo: {fileID: 2800000, guid: bf998a2495580f543ade7c71427bf4b7, type: 3}
+  trLogo:
+    stretch: 0
+    xAlign: 2
+    yAlign: 0
+    offset: {x: 0, y: 30}
+    size: {x: 512, y: 263}
+  trMenu:
+    stretch: 0
+    xAlign: 2
+    yAlign: 1
+    offset: {x: 0, y: 100}
+    size: {x: 250, y: 163}
+  menuMusic: []
+  sfxButton: {fileID: 0}
+  texNewGameBack: {fileID: 0}
+  newGameCharaBackFab: {fileID: 100000, guid: 033e840f0e884dc478d70727be5e2161, type: 2}
+  trNewCharaArea:
+    stretch: 0
+    xAlign: 0
+    yAlign: 0
+    offset: {x: 0, y: 0}
+    size: {x: 220, y: 500}
+  trNewClassArea:
+    stretch: 0
+    xAlign: 1
+    yAlign: 0
+    offset: {x: 0, y: 0}
+    size: {x: 220, y: 500}
+  trNewButtonsArea:
+    stretch: 0
+    xAlign: 2
+    yAlign: 1
+    offset: {x: 0, y: 30}
+    size: {x: 450, y: 100}
+  trNewCharaInfoArea:
+    stretch: 0
+    xAlign: 0
+    yAlign: 0
+    offset: {x: 0, y: 505}
+    size: {x: 280, y: 200}
+  trNewClassInfoArea:
+    stretch: 0
+    xAlign: 1
+    yAlign: 0
+    offset: {x: 0, y: 505}
+    size: {x: 280, y: 200}
+  labelNewGame: New Game
+  labelContinue: Continue
+  labelOptions: Options
+  labelExit: Quit
+  labelSelectChara: Select Character
+  labelSelectClass: Select Class
+  trOptions:
+    stretch: 0
+    xAlign: 2
+    yAlign: 1
+    offset: {x: 0, y: 100}
+    size: {x: 0, y: 0}
+  showAudioMainVolume: 1
+  showMusicVolume: 1
+  showGUIAudioVolume: 1
+  showFXAudioVolume: 1
+  showEnviroAudioVolume: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 158220}
+  m_IsPrefabParent: 1

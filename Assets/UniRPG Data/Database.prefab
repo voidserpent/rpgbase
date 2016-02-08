@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403182}
+  - 114: {fileID: 11460752}
+  m_Layer: 0
+  m_Name: Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11460752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f00b645ee51894d86fa04bd65cb521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGUITheme: Default Fantasy
+  menuGUIData: {fileID: 158220, guid: 7e15cf6a8864e67458584de716f6144f, type: 2}
+  gameGUIData: {fileID: 183938, guid: d6b6ebd5515f0e747afc4818cb07b904, type: 2}
+  startGUISettings: {fileID: 180224, guid: 5e14bed1c0eb29b4cb6a620e8e667aaf, type: 2}
+  loadGUISettings: {fileID: 187386, guid: c34e06d7ada3ba046ba76b3c210998d2, type: 2}
+  loadSaveProviderPrefab: {fileID: 173558, guid: 26ad433f15297694dbc5d2f6222b22e0,
+    type: 2}
+  questListProviderType: 
+  mainScenePaths:
+  - Assets/UniRPG Data/Scenes/System/startup.unity
+  - Assets/UniRPG Data/Scenes/System/unirpg.unity
+  - Assets/UniRPG Data/Scenes/System/menudata.unity
+  - Assets/UniRPG/Default Assets/GUI/Fantasy/menugui.unity
+  - Assets/UniRPG/Default Assets/GUI/Fantasy/gamegui.unity
+  floorLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  playerLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  npcLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  rpgItemLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  rpgObjectLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  shopGlobalBuyMod: 0.5
+  shopGlobalSellMod: 1
+  shopGlobalUsesCurrency: 0
+  shopGlobalUnlimited: 0
+  currency: Coin(s)
+  currencyShort: c
+  currencyDropPrefab: {fileID: 0}
+  skillDoubleTapSystemOn: 1
+  doubleTapTimeout: 0.3
+  selectionRingPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audioMainVolume: 1
+  musicVolume: 0.7
+  guiAudioVolume: 1
+  fxAudioVolume: 1
+  affectEnviroAudioVolume: 1
+  enviroAudioVolume: 1
+  gfxQuality: 1
+  gfxResolution: 1
+  gfxFullscreen: 1
+  playerCanSelectCharacter: 1
+  playerCanSelectClass: 1
+  playerCanChooseName: 1
+  defaultPlayerCharacterPrefab: {fileID: 0}
+  inputDefs: []
+  menuAutoCalls: []
+  gameAutoCalls:
+  - DiaQUniRPG
+  numericVars: []
+  stringVars: []
+  objectVars: []
+  gameScenePaths:
+  - Assets/UniRPG Data/Scenes/gamescene.unity
+  gameSceneNames:
+  - gamescene
+  classes:
+  - {fileID: 11400000, guid: cf607ff9130f2b9448e2e65162652411, type: 2}
+  attributes:
+  - {fileID: 11400000, guid: 8aaff45e42c2a174cafe7311754c2419, type: 2}
+  - {fileID: 11442478, guid: 8aaff45e42c2a174cafe7311754c2419, type: 2}
+  states: []
+  loot: []
+  itemCategories:
+  - screenName: Undefined
+    types: []
+  - screenName: Weapon
+    types:
+    - Wand
+    - Spiked Gauntlet
+    - Club
+    - Dagger
+    - Sword
+    - Axe
+    - Hammer
+    - Staff
+    - Two-Handed Sword
+    - Two-Handed Axe
+    - Two-Handed Hammer
+    - Bow
+    - Crossbow
+    - Mace
+    - Sickle
+    - Flail
+    - Spear
+    - Bolas
+    - Chain
+  - screenName: Armor
+    types:
+    - Cloth
+    - Leather
+    - Hide
+    - Scalemail
+    - Chainmail
+    - Banded
+    - Plate
+  - screenName: Accessory
+    types:
+    - Trinket
+    - Neck
+    - Ring
+    - Bracelet
+    - Earring
+  - screenName: Consumable
+    types:
+    - Potion
+    - Elixir
+    - Food
+  equipSlots:
+  - Head
+  - Body
+  - Main-Hand
+  - Off-Hand
+  - Necklace
+  - Ring1
+  - Ring2
+  - Back
+  - Legs
+  - Feet
+  - Hands
+  - Trinket1
+  - Trinket2
+  - Wrist1
+  - Wrist2
+  - Shoulder
+  - Ear1
+  - Ear2
+  skillPrefabs:
+  - {fileID: 122196, guid: 59c418c6686bbb44ab7e0543e0934323, type: 2}
+  rpgEventPrefabs:
+  - {fileID: 160290, guid: 8a6ca277e8e9eb846ba190289ea6f7a4, type: 2}
+  cameraPrefabs:
+  - {fileID: 188086, guid: 53175d7c391280747a2100dd88af75a8, type: 2}
+  rpgItemPrefabs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100296}
+  m_IsPrefabParent: 1

@@ -1,0 +1,12 @@
+version: 1.6.0
+© 2013 by Leslie Young
+DiaQ for UniRPG
+
+===============================================================
+
+Version 1.6.0
+
+- Release of DiaQ for UniRPG free
+
+
+-eof-
